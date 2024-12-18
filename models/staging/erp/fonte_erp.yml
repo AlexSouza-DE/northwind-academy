@@ -7,9 +7,9 @@ sources:
       - name: category
         columns:
           - name: id
-          tests:
-            - unique
-            - not_null
+            data_tests:
+              - unique
+              - not_null
                 
       - name: products
       - name: suppliers
